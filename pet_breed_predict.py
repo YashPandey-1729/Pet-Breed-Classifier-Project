@@ -33,14 +33,5 @@ def predict_pet_breed(img_path):
 
 # 4. Run it on any photo you want!
 
-# predict_pet_breed("images (1).jpg")
-# predict_pet_breed("images (2).jpg")
-# predict_pet_breed("images (3).jpg")
-# predict_pet_breed("images (4).jpg")
-# predict_pet_breed("images (5).jpg")
-# predict_pet_breed("images (6).jpg")
-# predict_pet_breed("images.jpg")
-# predict_pet_breed("Pomeranian.jpg")
-# predict_pet_breed("Pug.jpg")
-predict_pet_breed("images (11).jpg")
-predict_pet_breed("images (12).jpg")
+predict_pet_breed("Pomeranian.jpg")
+predict_pet_breed("Pug.jpg")
