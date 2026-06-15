@@ -1,0 +1,3 @@
+Upload or Paste Image,Top Breed Predictions,timestamp
+.gradio\flagged\Upload or Paste Image\20d47ba39576142a4542\images (7).jpg,"{""label"": ""Siamese"", ""confidences"": [{""label"": ""Siamese"", ""confidence"": 0.9999926090240479}, {""label"": ""Ragdoll"", ""confidence"": 5.323543518898077e-06}, {""label"": ""Bombay"", ""confidence"": 7.135775490496599e-07}]}",2026-06-15 23:27:22.018526
+.gradio\flagged\Upload or Paste Image\d2c1399350db302decca\images (2).jpg,"{""label"": ""pomeranian"", ""confidences"": [{""label"": ""pomeranian"", ""confidence"": 0.49927493929862976}, {""label"": ""Birman"", ""confidence"": 0.2783908545970917}, {""label"": ""Siamese"", ""confidence"": 0.17780393362045288}]}",2026-06-15 23:29:11.622809
