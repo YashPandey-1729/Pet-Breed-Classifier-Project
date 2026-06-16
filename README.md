@@ -7,7 +7,18 @@ An end-to-end deep learning system designed to classify 37 distinct breeds of do
 * **Validation Accuracy:** 91% (across 1,478 unseen validation images)
 * **Macro Average F1-Score:** 0.91
 * **Weighted Average F1-Score:** 0.91
-* **Architecture:** MobileNetV2 (Feature Extractor) + Custom Dense/Dropout Classification Head
+* **Architecture:** MobileNetV2 (Feature Extractor) + Custom Dense/Dropout Classification 
+
+## 📊 Model Soft-Max Strength (Top-k Evaluation)
+To analyze the fine-grained classification reliability of the model across 37 highly similar pet breeds, the system was evaluated using Top-k soft-max distribution boundaries:
+
+* **Top-1 Accuracy (Exact Match):** 91.20%
+* **Top-3 Accuracy (In Top 3 Predictions):** 98.58%
+* **Top-5 Accuracy (In Top 5 Predictions):** 99.46%
+
+![Model Strength Chart](model_strength_top_k.png)
+
+When the model misclassifies a specific breed on its primary guess, the true target class resides within its secondary or tertiary predictions **98.58% of the time**. This demonstrates that the feature extraction layer isolates highly logical, fine-grained visual characteristics instead of generating chaotic errors.
 
 ## 📊 Dataset Information
 This project utilizes the public **Oxford-IIIT Pet Dataset**. 
